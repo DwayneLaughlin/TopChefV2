@@ -1,0 +1,18 @@
+{
+    "Teams" : [
+        {
+            "Team name" : "Team 1",
+            "Location" : "The Living Room",
+            "Record" : " 1 - 0",
+            "Rival": "Team 2",
+            "Roster" : []
+        },
+        {
+            "Team name" : "Team 2",
+            "Location" : "The Dining Room",
+            "Record" : "0 - 1",
+            "Rival" : "Team 1",
+            "Roster" : []
+        }
+    ]
+}

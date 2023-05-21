@@ -1,0 +1,23 @@
+{
+  "name": "topchefv2",
+  "version": "1.0.0",
+  "description": "An updated version of a fantasy top chef app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwayneLaughlin/TopChefV2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DwayneLaughlin/TopChefV2/issues"
+  },
+  "homepage": "https://github.com/DwayneLaughlin/TopChefV2#readme",
+  "devDependencies": {
+    "require": "^2.4.20"
+  }
+}
