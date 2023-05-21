@@ -1,18 +1,42 @@
-{
-    "Teams" : [
-        {
-            "Team name" : "Team 1",
-            "Location" : "The Living Room",
-            "Record" : " 1 - 0",
-            "Rival": "Team 2",
-            "Roster" : []
+{ 
+    "Seasons" : {
+        "Season 1" : {
+            "City" : "San Francisco",
+            "Roster" : [
+                "Stephen Asprinio",
+                "Andrea Beaman",
+                "Harold Dieterle",
+                "Tiffani Faison",
+                "Brian Hill",
+                "Candice Kumai",
+                "Ken Lee",
+                "Dave Martin",
+                "Miguel Morales",
+                "Lisa Parks",
+                "Cynthia Sestito",
+                "Lee Anne Wong"
+            ]
         },
-        {
-            "Team name" : "Team 2",
-            "Location" : "The Dining Room",
-            "Record" : "0 - 1",
-            "Rival" : "Team 1",
-            "Roster" : []
+        "Season 2" :{
+            "City" : "Los Angeles",
+            "Roster" : [
+                "Elia Aboumrad",
+                "Otto Borsich",
+                "Marisa Churchill",
+                "Cliff Crooks",
+                "Carlos Fernandez",
+                "Betty Fraser",
+                "Mia Gaines-Alt",
+                "Ilan Hall",
+                "Michael Midgley",
+                "Josie Smith-Malave",
+                "Emily Sprissler",
+                "Suyai Steinhauer",
+                "Sam Talbot",
+                "Frank Terzoli",
+                "Marcel Vigneron"
+            ]
         }
-    ]
+    }
+    
 }
