@@ -1,7 +1,7 @@
 const data = require('./data.json')
 const http = require('http')
-const team = require('./Team.js')
-import {Team} from './Team.js'
+const Team = require('./Team.js')
+
 
 
 http.createServer(function(req,res){
@@ -10,7 +10,7 @@ http.createServer(function(req,res){
 }).listen(5000);
 
 
-team
+
 let teamDwayne  = new Team();
 teamDwayne.player = "Dwayne Laughlin";
 teamDwayne.teamName = "Da Big Homies";
@@ -37,3 +37,5 @@ teamVanessa.roster = [
     data.Seasons['Season 1'].Roster[9]
 ]
 teamVanessa.score = 0;
+
+console.log(teamDwayne.teamName)

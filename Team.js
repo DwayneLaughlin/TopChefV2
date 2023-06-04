@@ -6,4 +6,4 @@ class Team {
         this.score = score;
     }
 }
-export class Team{};
+module.exports = Team;
