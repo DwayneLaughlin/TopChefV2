@@ -3,14 +3,6 @@ const http = require('http')
 const Team = require('./Team.js')
 
 
-
-http.createServer(function(req,res){
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end(teamDwayne,teamVanessa);
-}).listen(5000);
-
-
-
 let teamDwayne  = new Team();
 teamDwayne.player = "Dwayne Laughlin";
 teamDwayne.teamName = "Da Big Homies";
@@ -37,5 +29,8 @@ teamVanessa.roster = [
     data.Seasons['Season 1'].Roster[9]
 ]
 teamVanessa.score = 0;
-
-console.log(teamDwayne.teamName)
+const teamArray = []
+teamArray.push(teamDwayne)
+teamArray.push(teamVanessa)
+Object.assign(data.Teams, teamArray)
+console.log(data.Teams)

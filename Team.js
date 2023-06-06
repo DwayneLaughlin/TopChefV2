@@ -5,5 +5,6 @@ class Team {
         this.roster = roster;
         this.score = score;
     }
+    
 }
 module.exports = Team;
