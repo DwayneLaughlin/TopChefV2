@@ -10,7 +10,16 @@ class Team {
     }
 
    addPoints(points){
-    return this.score += points
+    return this.score += points;
+   }
+
+   decreasePoints(points){
+    if(this.score -= points <= -1){
+        return this.score = 0;
+    } else {
+        return this.score -= points;
+    }
+    
    }
 
 

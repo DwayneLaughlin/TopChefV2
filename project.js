@@ -37,7 +37,5 @@ teamArray.push(teamDwayne)
 teamArray.push(teamVanessa)
 //pushes the array with team information to teams object
 Object.assign(data.Teams, teamArray)
-teamDwayne.addPoints(5);
-data.Teams.push(teamDwayne);
-data.Teams.push(teamVanessa);
+
 console.log(data.Teams);
