@@ -4,6 +4,7 @@ const Team = require('./Team.js')
 
 //create and populate objects for teams
 const teamDwayne  = new Team();
+teamDwayne.id = 1;
 teamDwayne.player = "Dwayne Laughlin";
 teamDwayne.teamName = "Da Big Homies";
 teamDwayne.roster = [
@@ -17,6 +18,7 @@ teamDwayne.roster = [
 teamDwayne.score = 0
 
 const teamVanessa = new Team();
+teamVanessa.id = 2;
 teamVanessa.player = "Vanessa Underwood-Laughlin";
 teamVanessa.teamName = "Team Big Legs";
 teamVanessa.roster = [
@@ -35,4 +37,7 @@ teamArray.push(teamDwayne)
 teamArray.push(teamVanessa)
 //pushes the array with team information to teams object
 Object.assign(data.Teams, teamArray)
-console.log(data.Teams)
+teamDwayne.addPoints(5);
+data.Teams.push(teamDwayne);
+data.Teams.push(teamVanessa);
+console.log(data.Teams);
