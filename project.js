@@ -38,4 +38,4 @@ teamArray.push(teamVanessa)
 //pushes the array with team information to teams object
 Object.assign(data.Teams, teamArray)
 
-console.log(data.Teams);
+console.log(data.Teams[1]);
